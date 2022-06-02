@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------------------- Header ---------------------------------------*/
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 33%;
+    flex-wrap: wrap;
+}
+
+.header h3 {
+    display: flex;
+    align-self: flex-start;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    color: #E5E7EB;
+    gap: 10px;
+}
+
+/*--------------------------------------- First Container ---------------------------------------*/
+
+.first-container {
+    display: flex;
+    height: max-content;
+    min-height: 300px;
+    background-color: #1F2937;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 13%;
+}
+
+.first-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-width: 400px;
+    min-height: 240px;
+    width: min-content;
+}
+
+.first-container-left h1 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.first-container-left p {
+    color: #E5E7EB;
+    margin-top: -30px;;
+}
+
+.first-container button {
+    margin-top: -10px;;
+}
+
+.first-container-right {
+    min-height: 240px;
+    min-width:  400px;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+
+}
+
+/*--------------------------------------- Second Container ---------------------------------------*/
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    min-height: 300px;
+    background-color: white;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 13%;
+}
+
+.second-container h2 {
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    flex-wrap: wrap;
+    max-height: 250px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.card-box {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.cards p {
+    text-align: center;
+}
+
+/*--------------------------------------- Third Container ---------------------------------------*/
+
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 700px;
+    margin: auto;
+}
+
+#quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+/*--------------------------------------- Fourth Container ---------------------------------------*/
+
+.fourth-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    gap: 30%;
+    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    color: #E5E7EB;
+}
+
+.call-text h3 {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.call-text p {
+    margin-top: -3%;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-button button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    min-width: 100px;
+    min-height: 35px;
+}
+
+/*--------------------------------------- Footer ---------------------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+}
+
+* {
+    /* border: 2px solid red; */
+    font-family: Roboto;
+}
